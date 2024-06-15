@@ -50,9 +50,12 @@ int main()
     insert_node(&head,10);
     insert_node(&head,20);
     insert_node(&head,30);
+
     print_list(&head);
+
     delete_node(&head);
     insert_node(&head,120);
     insert_node(&head,340);
+    
     print_list(&head);
 }
